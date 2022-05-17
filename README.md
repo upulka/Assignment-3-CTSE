@@ -2,8 +2,8 @@
 
 # Task 1:
 - Dockerize the microservices and push the builds into your dockerhub. (Each member will have to dockerize one microservice and push to their own docker hub). Commit the changes to github.
-- Expected outcome per microservice
-Dockerfile
+## Expected outcome per microservice
+  - Dockerfile
 Link of the image in dockerhub
 
 # Task 2:
