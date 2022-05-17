@@ -1,0 +1,21 @@
+apiVersion: app/v1
+kind: Deployment
+metadata:
+  name: shoppingcart-deployment
+  labels:
+    app: shoppingcart
+spec:
+  replicas: 1
+  selector: 
+    matchLabels:
+      app: shoppingcart
+  template: 
+    metadata:
+      labels:
+        app: shoppingcart
+    spec: 
+      container: 
+      - name: nodeserver
+        image: upulka/shoppingcart:latest
+        ports:
+        - containerPort: 8080
