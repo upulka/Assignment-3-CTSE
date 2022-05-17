@@ -26,7 +26,7 @@ connection.once("open", () => {
     console.log("Mongodb connection success!!");
 });
 
-// http://localhost:8070/cart
+// http://localhost:8080/cart
 const CartRouter = require('./src/routes/CartRoute.js');
 app.use('/cart', CartRouter);
 
