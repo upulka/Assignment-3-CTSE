@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "shoppingcart",
   "version": "1.0.0",
   "description": "tea store management system",
   "main": "index.js",
